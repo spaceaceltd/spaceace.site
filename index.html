@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Consulting & Innovation Lab | Space Ace</title>
+    <meta name="description" content="A technical 'SWAT team' specializing in rapid prototyping and high-stakes legacy system modernization for New Zealand and Australia's leading enterprises.">
+    
+    <style>
+        /* --- General Reset & Base Styles --- */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            scroll-behavior: smooth; /* Smooth scrolling to anchors */
+        }
+
+        a { text-decoration: none; color: inherit; }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 60px 0;
+            margin-bottom: 0; /* Removed margin from multi-page version */
+        }
+
+        h1, h2, h3 { color: #000; }
+
+        .cta-button {
+            display: inline-block;
+            background: #ff6600; /* Accent color */
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        /* --- Header & Navigation --- */
+        header {
+            background: #fff;
+            padding: 1rem 0;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #333;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        /* --- Hero Section --- */
+        .hero-section {
+            background: #ff6600;
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        /* --- Social Proof --- */
+        .social-proof {
+            background: #fff;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .client-logos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .client-logos span {
+            font-weight: bold;
+            color: #666;
+        }
+
+        /* --- Services & Case Studies (Cards Layout) --- */
+        .card-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            flex: 1 1 calc(50% - 20px); /* Two cards per row on large screens */
+        }
+
+        /* --- About Us --- */
+        .team-member img {
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        /* --- Contact Form --- */
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            border-top: 1px solid #ddd;
+            background: #fff;
+        }
+
+        /* --- Mobile Responsiveness (Media Queries) --- */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none; /* Hide standard nav on mobile, usually replaced by a burger menu in real sites */
+            }
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            .card {
+                flex: 1 1 100%; /* One card per row on mobile */
+            }
+            .client-logos {
+                justify-content: space-between;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <div class="container">
+            <nav>
+                
+                <div class="logo">
+                    SPACE ACE
+                </div>
+                <img src="spaceacelogo.png" height="50px"/>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="container">
+                <h1>Make Your Digital Space ACE</h1>
+                <p>Accelerate Innovation and simplify Software Delivery.</p>
+                <p>We are a technical 'SWAT team' and innovation lab, specializing in rapid prototyping and high-stakes legacy system modernization for Aotearoa and Australia's dynamic enterprises.</p>
+                <p>We combine decades of enterprise experience with agile innovation to deliver exceptional results.</p>
+                <p>Our mission is to provide pragmatic, results-oriented technical solutions that drive real business value.</p>
+            </div>
+        </section>
+
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Specialized Enterprise Software Services</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Strategic Consulting & Technical Architecture</h3>
+                        <p>High-level advisory services, system assessment, and roadmap definition for complex digital transformations.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Rapid Prototyping & Innovation Lab</h3>
+                        <p>Quickly build and test high-fidelity prototypes using cutting-edge tech (Mobile, AR, VR, Web).</p>
+                    </div>
+                    <div class="card">
+                        <h3>Enterprise Software Delivery (SWAT Team)</h3>
+                        <p>Embedded expert teams to rescue failing projects, migrate legacy platforms, manage offshore teams, and ensure compliance for accessibility.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Custom & Cloud-Native Implementation</h3>
+                        <p>Application setup and management across AWS, Azure, and GCP for scalable, secure operations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section" style="background: #fff;">
+            <div class="container">
+                <h2>Schedule a discussion</h2>
+                <p>Ready to make your digital dreams a reality? Get in touch with our expert team today.</p>
+                <p>We aim to respond to all inquiries within <strong>4 hours</strong>.</p>
+                <p>Email: <a href="mailto:spaceaceltd@gmail.com">spaceaceltd@gmail.com</a></p>
+                <p>Phone: +64224088233 / +61415275557</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Space Ace Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
